@@ -1,0 +1,252 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background-color: rgb(230, 230, 230);
+    
+  }
+
+  h1, h2, h3, h4 {
+     margin: 0px;
+  }
+
+  /* Header */
+  #mainHeader {
+    background: linear-gradient(rgb(52, 52, 52), rgb(46, 46, 46));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  .logo {
+    height: 31px;
+    margin-right: 10px;
+    margin-left: 225px;
+    margin-top: 5px;
+  }
+
+  .acc-sign{
+    margin-right: 10px;
+    width: 70px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background: linear-gradient(0deg, rgb(242, 153, 0) 0%, rgb(246, 194, 21) 100%);
+    border-radius: 3px;
+    border-color: rgb(208, 122, 0);
+    border-style: solid;
+  }
+  .inbox-logo {
+    width: 25px;
+    margin-right: 7px;
+    margin-bottom: 2px;
+  }
+
+  .profile-picture {
+    width: 30px;
+    margin-right: 245px;
+    margin-top: 3px;
+  }
+
+  #mainSidebar {
+    float: left;
+    padding: 10px;
+    background-color: rgb(218, 218, 218);
+    width: 200px;
+    height: 1000px;
+    margin-top: 30px;
+    margin-left: 225px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .sidebar-item-divs img {
+  height: 25px;
+
+  }
+
+  .sidebar-item-divs a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.0em;
+    margin-left: 5px;
+    transition-duration: 0.2s;
+  }
+
+  .sidebar-item-divs a:hover {
+    text-decoration: none;
+    color: rgb(0, 118, 91);
+    font-size: 1.05em;
+    margin-left: 5px;
+    transition-duration: 0.2s;
+  }
+
+
+  .sidebar-item-divs {
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    margin-bottom: 1px;
+    margin-top: 10px;
+  }
+
+  #main {
+    display: flex;
+  }
+
+  #user-info {
+    margin: 30px;
+    padding: 30px;
+    width: 400px;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  }
+
+
+  h2 {
+    font-weight: 400;
+    font-size: 30px;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  #categories {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    width: 190px;
+    height: 310px;
+    padding: 10px 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+  }
+
+  .categories-text {
+    border-bottom: 1px solid grey;
+    font-size: 0.8em;
+    padding-bottom: 5px;
+
+  }
+
+    /* Profile Widget */
+    #profileWidget {
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      padding: 5px 0px;
+      width: 200px;
+      height: 190px;
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    }
+  
+      /* Top part */
+      .profile-identity-summary {
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+      }
+      /* Logo */
+      .profile-identity-summary img {
+        border-radius: 5px;
+        width: 50px;
+        margin-right: 10px;
+      }
+      /* Username */
+      .profile-identity-summary h3 {
+        margin: 0px;
+        font-weight: bold;
+        font-size: 1em;
+      }
+      /* Profile Link */
+      .profile-identity-summary a {
+        color: #989898;
+        text-decoration: none;
+        transition-duration: 0.2s;
+        font-size: 0.8em;
+      }
+      .profile-identity-summary a:hover {
+        color: #c0c0c0;
+        transition-duration: 0.2s;
+        font-size: 0.85em;
+      }
+  
+      /* Stats about person */
+      .profile-stats-info {
+        border-top: 1px solid #989898;
+        border-bottom: 1px solid #989898;
+        display: flex;
+      }
+  
+      /* Stats divs behavior */
+      .profile-stats-info div {
+        display: flex;
+        flex-direction: column;
+      }
+      /* No border for the div all the way to the left */
+      .stats-info-div-no-borders {
+        padding: 15px;
+      }
+      /* Left borders for the other divs */
+      .stats-info-div-borders {
+        border-left: 1px solid #989898;
+        padding: 15px;
+      }
+  
+      /* Stats Numbers */
+      .stats-numbers {
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+      /* Stats Labels (MESSAGES, FOLLOWING, FOLLOWERS) */
+      .stats-labels {
+        color: #989898;
+        font-size: 0.5em;
+      }
+  
+      /* New message DIV */
+      .compose-new-message-div {
+        background-color: #f2f2f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 13px 15px 10px 15px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+      /* New message field */
+      .compose-new-message-div input {
+        border-radius: 5px;
+        border: 1px solid #bcbcbc;
+        color: grey;
+        width: 100%;
+        padding: 10px;
+        font-size: 1em;
+      }
+
+/* Sign-In/Sign-Up page */
+
+
+
+/*
+rgb(224, 242, 241); - #E0F2F1 - Col: 50
+rgb(178, 223, 219); - #B2DFDB - Col: 100
+rgb(128, 203, 196) - #80CBC4 - Col: 200
+rgb(77, 182, 172); - #4DB6AC - Col: 300
+rgb(38, 166, 154); - #26A69A - Col: 400
+rgb(0, 150, 136); - #009688 - Col: 500 - Main
+rgb(0, 137, 123); - #00897B - Col: 600
+rgb(0, 121, 107); - #00796B - Col: 700
+rgb(0, 105, 92); - #00695C - Col: 800
+rgb(0, 77, 64); - #004D40 - Col: 900
+
+rgb(167, 255, 235); - #A7FFEB - Col: A100
+rgb(100, 255, 218); - #64FFDA - Col: A200
+rgb(29, 233, 182); - #1DE9B6 - Col: A400
+rgb(0, 191, 165); - #00BFA5 - Col: A700
+
+*/
